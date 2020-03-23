@@ -1,3 +1,7 @@
+*.iso
+*.ova
+*.zip
+*.rar
 *.aux
 *.log
 *.out
