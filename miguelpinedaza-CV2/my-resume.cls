@@ -264,7 +264,7 @@
 		    {\Huge\bfseries\color{headerfontcolor}\MakeUppercase{\@name}\par}
 		\end{minipage}%
 		\vfill%
-		\begin{minipage}[b][\dimexpr \headerheight-2em-\marginbottom]{\linewidth}%
+		\begin{minipage}[b][\dimexpr \headerheight-3.5em-\marginbottom]{\linewidth}%
 		    {\large\bfseries\color{headerfontcolor}\@tagline\par}
 		\end{minipage}%
 	% finish the minipages for text and photo if photo is given
