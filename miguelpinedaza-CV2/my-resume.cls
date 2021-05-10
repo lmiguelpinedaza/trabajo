@@ -100,21 +100,21 @@
 
 % Gray-scale colors
 \definecolor{white}{HTML}{FFFFFF}
-\definecolor{black}{HTML}{000000}
-\definecolor{darkgray}{HTML}{333333}
+\definecolor{black}{HTML}{021e49}
+\definecolor{darkgray}{HTML}{001138}
 \definecolor{mediumgray}{HTML}{444444}
-\definecolor{gray}{HTML}{5D5D5D}
+\definecolor{gray}{HTML}{939393}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{gray2}{HTML}{c1cee4}
 % Text colors
 \definecolor{darktext}{HTML}{414141}
 \colorlet{text}{darkgray}
 \colorlet{graytext}{gray}
-%\definecolor{gray2}{ededed}
 % Awesome colors
 \definecolor{awesome-emerald}{HTML}{00A388}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
@@ -413,7 +413,12 @@
 \newcommand{\skill}[2]{%
     \textcolor{emphasis}{\textbf{#1}}\hfill
     \foreach \x in {1,...,5}{%
-      \space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faCircle}}\par%
+	%\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faCircle}}\par%
+	%\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faArrowRight}}\par%
+	%\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faAsterisk}}\par%
+	\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faBicycle}}\par%
+	%\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faBomb}}\par%
+	%\space{\ifnumgreater{\x}{#2}{\color{gray}}{\color{accent}}\faChevronCircleRight}}\par%
 }
 
 % skill without any charts
